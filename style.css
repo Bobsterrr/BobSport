@@ -2,3 +2,7 @@ body {
     all: unset;
 }
 
+.header__logo {
+    display: flex;
+    
+}
