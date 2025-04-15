@@ -1,8 +1,124 @@
 body {
     all: unset;
+    background-color: #fdfcf6;
 }
 
 .header__logo {
     display: flex;
-    
+    margin: auto;
+    padding: 30px 0 50px 0;
+}
+
+.article__button {
+    all: unset;
+    background-color: #faf6e0;
+    display: grid;
+    padding-top: 45px;
+    width: 100%;
+    height: 750px;
+    filter: opacity(75%);
+    border-top: 5px solid rgb(92, 55, 0);
+}
+
+.article__text {
+    color: rgb(68, 37, 0);
+    text-align: center;
+}
+
+h1 {
+    font-size: 96px;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 48px;
+    margin-top: 15px;
+}
+
+.aricle__football {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+div {
+    height: 250px;
+}
+
+.article__logo {
+    filter: brightness(75%);
+    padding-left: 25px;
+}
+
+.article__button:hover {
+    border-top: 5px solid rgb(172, 103, 0);
+    transition: 0.5s;
+}
+
+.article__button:hover .article__logo {
+    filter: brightness(100%);
+    transition: 0.5s;
+}
+
+.article__button:hover .article__text {
+    color: rgb(151, 83, 0);
+    transition: 0.5s;
+}
+
+.article__button_review {
+    all: unset;
+    background-color: #faf6e0;
+    display: grid;
+    padding-top: 45px;
+    width: 100%;
+    height: 450px;
+    filter: opacity(75%);
+    border-top: 5px solid rgb(92, 55, 0);
+}
+
+.article__button_review:hover .article__text {
+    color: rgb(151, 83, 0);
+    transition: 0.5s;
+}
+
+.article__button_review:hover {
+    border-top: 5px solid rgb(172, 103, 0);
+    transition: 0.5s;
+}
+
+a {
+    all: unset;
+}
+
+a:hover {
+    color: rgb(191, 194, 0);
+    transition: 0.5s;
+}
+
+.article__button_explanation {
+    all: unset;
+    background-color: #faf6e0;
+    display: grid;
+    padding-top: 45px;
+    width: 100%;
+    height: 1000px;
+    filter: opacity(75%);
+    border-top: 5px solid rgb(92, 55, 0);
+}
+
+.article__button_explanation:hover .article__text {
+    color: rgb(151, 83, 0);
+    transition: 0.5s;
+}
+
+.article__button_explanation:hover {
+    border-top: 5px solid rgb(172, 103, 0);
+    transition: 0.5s;
+}
+
+footer {
+    border-top: 5px solid rgb(92, 55, 0);
+    text-align: center;
+    font-size: 20px;
 }
