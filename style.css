@@ -140,16 +140,37 @@ footer {
   }
 
   .exclusive {
-    font-size: 120px;
+    text-align: center;
+    font-size: 148px;
     color: rgb(167, 43, 43);
   }
 
-.article__text_align {
-    position: absolute;
-    top: 0%;
+.article__button_bob {
+    all: unset;
+    background-color: #faf6e0;
     display: grid;
     justify-content: center;
-    align-items: flex-start;
-    padding: 50px;
-    text-align: center;
+    padding-top: 45px;
+    width: 100%;
+    height: 965px;
+    background-image: url(bob_interview.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 5px solid rgb(92, 55, 0);
+}
+
+
+.article__button_bob:hover {
+    border-top: 5px solid rgb(172, 103, 0);
+    transition: 0.5s;
+}
+
+.article__button_bob:hover .article__logo {
+    filter: brightness(100%);
+    transition: 0.5s;
+}
+
+.article__button_bob:hover .exclusive {
+    color: #f2274c;
+    transition: 0.5s;
 }
